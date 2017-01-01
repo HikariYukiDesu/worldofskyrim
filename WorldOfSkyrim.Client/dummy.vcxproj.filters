@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="common\plugin.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="networking\easywsclient.cpp">
+      <Filter>networking</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>networking</Filter>
+    </ClCompile>
+    <ClCompile Include="updateRequest.cpp">
+      <Filter>jsonPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="playerController.cpp">
+      <Filter>game\source</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="serverMessageDispatcher.cpp">
+      <Filter>networking</Filter>
+    </ClCompile>
+    <ClCompile Include="stringHelper.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="serverResponceParser.cpp">
+      <Filter>jsonPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="parametherProvider.cpp">
+      <Filter>pluginUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="npcRepository.cpp">
+      <Filter>game\source</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>game\source</Filter>
+    </ClCompile>
+    <ClCompile Include="npcDataMiner.cpp">
+      <Filter>utils\dataMining</Filter>
+    </ClCompile>
+    <ClCompile Include="skyscriptHelper.cpp">
+      <Filter>pluginUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="authorizeRequest.cpp">
+      <Filter>jsonPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="npcHelper.cpp">
+      <Filter>pluginUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="updateResponce.cpp">
+      <Filter>networking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{93b56e69-cf6b-46a3-859e-ae5a14c5bd2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="networking">
+      <UniqueIdentifier>{0203d9df-5eb0-489e-8d55-d92e9c5309ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{e0315929-ca0b-4c8a-9ccc-bb3b7784f288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\headers">
+      <UniqueIdentifier>{6e6b0228-8924-425e-bec2-0876c1978b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\source">
+      <UniqueIdentifier>{af0b90e6-0827-4498-a022-d7e7600d809b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsonPatterns">
+      <UniqueIdentifier>{57df1d7d-b599-4356-b688-04f6b1d5a9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pluginUtils">
+      <UniqueIdentifier>{fb848720-57db-498f-93b5-72147157444f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d1229a02-a3ed-40f1-b166-2dfe502d97a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\dataMining">
+      <UniqueIdentifier>{d04e4996-da3c-4886-965a-d3a95d8f453d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\enums.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\invoke.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\obscript.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\plugin.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\skyscript.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="networking\easywsclient.hpp">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="updateRequest.h">
+      <Filter>jsonPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="playerController.h">
+      <Filter>game\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="parametherProvider.h">
+      <Filter>pluginUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginUtils.h">
+      <Filter>pluginUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h" />
+    <ClInclude Include="serverMessageDispatcher.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+    <ClInclude Include="npcRepository.h">
+      <Filter>game\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stringHelper.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="serverResponceParser.h">
+      <Filter>jsonPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>game\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="npcDataMiner.h">
+      <Filter>utils\dataMining</Filter>
+    </ClInclude>
+    <ClInclude Include="skyscriptHelper.h">
+      <Filter>pluginUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="authorizeRequest.h">
+      <Filter>jsonPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="npcHelper.h">
+      <Filter>pluginUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="updateResponce.h">
+      <Filter>networking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="common\plugin.def">
+      <Filter>common</Filter>
+    </None>
+  </ItemGroup>
+</Project>
